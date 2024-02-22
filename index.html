@@ -13,27 +13,29 @@
             border: none;
             width: 100%;
             height: 100%;
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: -1;
+        }
+        header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            background-color: #000;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
         }
     </style>
 </head>
 <body>
+<!--
+    <header>
+       
+    </header>
+	-->
     <iframe src="https://km627m7i49.feishu.cn/docx/Qhgadx6hKoMI5uxpkhlcQ8wenCf"></iframe>
-    <script>
-        document.body.style.height = window.innerHeight + 'px';
-        document.body.style.width = window.innerWidth + 'px';
-        document.body.style.margin = '0';
-        document.body.style.overflow = 'hidden';
-        document.body.style.display = 'flex';
-        document.body.style.justify-content = 'center';
-        document.body.style.align-items = 'center';
-        document.body.style.background = '#000';
-        document.body.appendChild(document.createElement('iframe'));
-        document.body.querySelector('iframe').src = 'https://km627m7i49.feishu.cn/docx/Qhgadx6hKoMI5uxpkhlcQ8wenCf';
-        document.body.querySelector('iframe').style.height = '100%';
-        document.body.querySelector('iframe').style.width = '100%';
-        document.body.querySelector('iframe').style.border = 'none';
-        document.body.querySelector('iframe').style.display = 'block';
-        document.body.querySelector('iframe').style.margin = '0 auto';
-    </script>
 </body>
 </html>
